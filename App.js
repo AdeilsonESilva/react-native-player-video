@@ -151,6 +151,7 @@ const VideoPlayer = () => {
           onAudioBecomingNoisy={onAudioBecomingNoisy}
           onAudioFocusChanged={onAudioFocusChanged}
           repeat={false}
+          ignoreSilentSwitch="ignore"
         />
       </TouchableOpacity>
 
